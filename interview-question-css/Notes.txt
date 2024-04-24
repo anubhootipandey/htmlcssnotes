@@ -6,3 +6,9 @@
 
 3.Which css property is used to describe how the transition will play?
 --transition-timing-function
+
+4.Which css property is used to indicate if an animation plays in reverse or repeats itself every other iteration?
+--animation-direction
+
+5.Which css property is used to define the animations that should be run?
+--Syntax:animation-name: @keyframe-name | none
