@@ -1,0 +1,15 @@
+Q1. Is it important to test the webpage in different browsers?
+Ans:It’s most important to test a website in different browsers when you’re first designing it, or when making major changes. However, it’s also important to repeat these tests periodically, since browsers go through a lot of updates and changes.
+
+Q2. Why background and color are the separate properties if they should always be set together?
+Ans.There are two reasons behind this:
+--It enhances the legibility of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+--Color is an inherited property while the background is not. So this can make confusion further.
+
+Q3. What is the use of CSS Opacity?
+Ans.The CSS opacity property is used to specify the transparency of an element. In simple words, you can say that it specifies the clarity of the image. In technical terms, Opacity is defined as the degree to which light is allowed to travel through an object. 
+Example :     <style> 
+            img{
+                Opacity : 0.6 ; 
+                    }
+        </style> 

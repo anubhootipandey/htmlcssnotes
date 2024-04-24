@@ -1,0 +1,8 @@
+1.The CSS property used to specify whether the text is written in the horizontal or vertical direction?
+--The writing-mode CSS property specifies whether the text is written in the vertical or horizontal direction. This property sets whether the lines of text are laid out vertically or horizontally. It specifies the direction in which the content flows on the page.
+
+2.Which CSS property is used to represent the overflowed text which is not visible to the user?
+--The text-overflow property specifies the representation of overflowed text, which is not visible to the user. It signals the user about the content that is not visible. This property helps us to decide whether the text should be clipped, show some dots (ellipsis), or display a custom string.
+
+3.Which css property is used to describe how the transition will play?
+--transition-timing-function
