@@ -12,3 +12,11 @@
 
 5.Which css property is used to define the animations that should be run?
 --Syntax:animation-name: @keyframe-name | none
+
+6.What is the default orientation within a flex container?
+--By default, flex items are laid out in a row, from left to right. This means that the main axis of the flex container is horizontal, and the flex items are positioned along this horizontal axis. So, the correct answer is horizontal.
+
+7.Which property is necessary to add to element to make the flex properties work?
+--This property is used to define an element as a flex container and its children as flex items. It enables the use of various flex properties to control the layout and positioning of elements within the flex container. So, the correct answer is: display: flex;
+
+8.

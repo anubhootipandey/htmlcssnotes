@@ -1,0 +1,10 @@
+1.Can you give example of non semantic elements?
+--div, span
+
+2.How do semantic elemnts benefit accessibility and SEO?
+--
+
+3.Can you explain the concept of responsive web design and how it is implemented by using html and css?
+--
+
+4.
