@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+
+header .header-container{
+    margin: 5px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+}
+
+header .header-container h1{
+    color: #fff;
+    margin-right: 650px;
+    font-size: 2.5rem;
+}
+
+header .header-container input{
+    border: none;
+    outline: none;
+    padding: 0;
+    width: 300px;
+    border-radius: 5px;
+}
+
+header .header-container a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+header .header-container button{
+    padding: 3px;
+    font-weight: bold;
+    width: 70px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: cornflowerblue;
+    margin-left: 40px;
+}
+
+/*home*/
+
+.home .image img{
+    object-fit: cover;
+    height: 500px;
+    width: 100vw;
+}
+
+.home .text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.home .text-container h1{
+    margin-bottom: 10px;
+    color: cornflowerblue;
+}
+
+.home .text-container p{
+    color: cadetblue;
+}
+
+/*About*/
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.about h3{
+    color: cornflowerblue;
+    margin: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about .card-container .card{
+    width: 250px;
+    height: 300px;
+    border: 1px solid #fff;
+    background-color: cornflowerblue;
+}
+
+.about .card-container .card img{
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.about .card-container .card h4{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.about .card-container .card p{
+    color: #fff;
+}
+
+/*Conatct*/
+
+.contact{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h3{
+    color: cornflowerblue;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.contact form{
+    padding: 50px;
+    border: 2px solid cornflowerblue;
+    width: 500px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label{
+    color: cornflowerblue;
+}
+
+.contact form input{
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid cornflowerblue;
+    padding: 5px;
+}
+
+.contact form textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+.contact form button{
+    padding: 8px;
+    font-weight: bold;
+    width: 100px;
+    background-color: cornflowerblue;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    height: 200px;
+}
+
+footer .footer-text p{
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+footer .footer-text h5{
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+}
